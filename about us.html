@@ -38,6 +38,21 @@
                 background-color: #1d322e;
               }
 
+             * {
+              box-sizing: border-box;
+             }
+              .column {
+                float: left;
+                width: 33,33%;
+                padding: 5px;
+              }
+
+              .row:after {
+                content:"";
+                clear: both;
+                display: table;
+              }
+
             
         </style>
 
@@ -51,8 +66,17 @@
         </ul>
         <br>
       
-        <h1 style="style="font-size: 24px; text-align: center; padding-top: 15px;">PROFILE</h1>
+        <h1 style="style"="font-size: 24px; text-align: center; padding-top: 15px;">PROFILE</h1>
         <p align="justify">Bolang Jogja berdiri pada awal tahun 2024. Latar belakang membuat Bolang Jogja adalah beberapa teman sering mengeluhkan kebingungan dalam memilih destinasi wisata yang edukasi, penuh sejarah, tetapi tetap bisa dinikmati oleh semua kalangan. Tetapi mereka juga sering kesulitan dalam memahami tempat wisata yang mereka datangi tanpa adanya pendamping (tour guide). Maka dari itu, Bolang Jogja hadir untuk menemani wisatawan keliling di beberapa destinasi wisata Jogja. Untuk sekarang, Bolang Jogja baru memiliki 2 staf tour guide yang sudah berpengalaman mengenai seluk beluk wisata Jogja. Jadi, bagi kalian yang ingin berlibur ke Jogja bisalah langsung mampir ke Bolang Jogja !</p>
-    
+
+        <div class="row">
+          <div class="column">
+            <img src="astut elma.png" alt="astut elma" style="width:20%">
+          </div>
+          <div class="column">
+            <img src="astut muti.png" alt="astut muti" style="width:20%">
+          </div>
+        </div>
+        
     </body>
 </html>
